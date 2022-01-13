@@ -1,0 +1,56 @@
+body{
+    background-color: #A2D2FF;
+    font-family: 'Rubik', sans-serif;
+}
+
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .navbar-brand{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+}
+#mainNavbar #linedash{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+}
+
+#mainNavbar .nav-link{
+    color: white;
+}
+
+#mainNavbar .nav-link:hover{
+    color: #023E8A;
+}
+
+#headingGroup h1{
+    font-size: 4.0rem;
+    font-weight: 100;
+}
+h2{
+    color: #023E8A;
+    font-weight: 100;
+}
+.content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.textContent{
+    font-size: 1.125rem;
+    font-weight: 100;
+    color: white;
+    text-transform: capitalize;
+    line-height: 2;
+}
+
+@media (max-width: 1200px){
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
